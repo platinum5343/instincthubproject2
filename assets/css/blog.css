@@ -1,0 +1,128 @@
+
+.blog-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .blog-post {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px;
+    width: calc(33.33% - 20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-post img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .blog-post a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .blog-post a:hover {
+    color: #23527c;
+  }
+
+/* Mobile-specific styles */
+
+@media only screen and (max-width: 768px) {
+  /* Blog container styles */
+  .blog-container {
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+  }
+
+  /* Blog post styles */
+  .blog-post {
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+  }
+
+  /* Blog post image styles */
+  .blog-post img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  /* Blog post content styles */
+  .blog-post .content {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /* Blog post meta styles */
+  .blog-post .meta {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Blog container styles */
+  .blog-container {
+    padding: 10px;
+    margin: 10px auto;
+    width: 95%;
+  }
+
+  /* Blog post styles */
+  .blog-post {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  /* Blog post image styles */
+  .blog-post img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+  }
+
+  /* Blog post content styles */
+  .blog-post .content {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  /* Blog post meta styles */
+  .blog-post .meta {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+}
+
+  
+  

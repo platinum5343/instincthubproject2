@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artic Online Fashion Store</title>
+    <link rel="stylesheet" href="./assets/scss/style.css" />
+    <link rel="stylesheet" href="./assets/css/collection.css" />
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="./assets/svgs/logo.svg" alt="Logo" />
+
+        <div class="link" id="link">
+          <ul class="center_link">
+            <li><a href="collection.html">COLLECTION</a></li>
+           
+            <li>BLOG</li>
+            <li>ABOUT</li>
+            <li>CONTACT</li>
+          </ul>
+
+          <!-- <div class="account">
+            <ul class="side_links">
+              <li>Account</li>
+              <li>Cart</li>
+            </ul>
+          </div> -->
+        </div>
+
+        <div class="hamburger" id="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
+    
+<!-- Collection Page -->
+.
+<div class="collection-container">
+    <h1>Collection</h1>
+    <div class="filter-options">
+      <select id="category-filter">
+        <option value="all">All Categories</option>
+        <option value="tops">Tops</option>
+        <option value="bottoms">Bottoms</option>
+        <option value="dresses">Dresses</option>
+        <option value="outerwear">Outerwear</option>
+      </select>
+      <select id="price-filter">
+        <option value="all">All Prices</option>
+        <option value="low-to-high">Low to High</option>
+        <option value="high-to-low">High to Low</option>
+      </select>
+      <select id="size-filter">
+        <option value="all">All Sizes</option>
+        <option value="xs">XS</option>
+        <option value="s">S</option>
+        <option value="m">M</option>
+        <option value="l">L</option>
+        <option value="xl">XL</option>
+      </select>
+    </div>
+    <div class="tab-panels">
+        <!-- TAB1 -->
+        <section id="marzen" class="tab-panel" id="tab-panel">
+    <div class="product-gridcollection">
+      <!-- Products will be displayed here -->
+    </div>
+</section>
+</div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <ul>
+        <h5>Sell Online</h5>
+        <li>Delivery Information</li>
+        <li>Arrange a Return</li>
+        <li>Faq</li>
+      </ul>
+      <ul>
+        <h5>Shopping With Us</h5>
+        <li>Gift Cards</li>
+        <li>Gift Experiences</li>
+        <li>Product Recall</li>
+      </ul>
+      <ul>
+        <h5>Privacy & Legal</h5>
+        <li>Cookies & Privacy Policy</li>
+        <li>Terms & Conditions</li>
+      </ul>
+      <ul class="newsletter">
+        <p>Subscribe to our Newsletter</p>
+        <div class="input_card">
+          <input type="text" />
+          <button>Subscribe</button>
+        </div>
+      </ul>
+    </div>
+
+    <div class="foot">
+      <h5>© InstinctHub Techsavvy Limited &nbsp;<span id="copyrightYear">2022</span></h5>
+      <script>document.getElementById("copyrightYear").innerHTML = new Date().getFullYear();</script>
+    </div>
+  </footer>
+  <script src="assets/js/Collection.js"></script>
+</body>
+</html>
