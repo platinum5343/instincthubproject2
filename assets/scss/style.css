@@ -128,6 +128,12 @@ article .tab-panel {
   letter-spacing: 0.04em;
   text-align: left;
 }
+
+.banner .banner_txt a {
+  font-family: "Merriweather", serif;
+ 
+  color: #ffffff;
+}
 .banner .banner_txt span {
   font-family: "Merriweather", serif;
   font-size: 40px;
@@ -450,3 +456,9 @@ footer .newsletter .input_card button {
     width: 75%;
   }
 }/*# sourceMappingURL=style.css.map */
+a{
+  text-decoration: none;
+}
+a:checked{
+  color: #333333;
+}

@@ -53,7 +53,7 @@ const blogPosts = [
           <h2>${blogPost.title}</h2>
           <p>${blogPost.content}</p>
           <p>Posted on ${blogPost.date}</p>
-          <a href="#">Read more</a>
+         
         </div>
       `;
     }).join('');

@@ -1,0 +1,204 @@
+
+
+/* About Us Page Styling */
+
+.about-us {
+    padding: 50px 0;
+    background-color: #f7f7f7;
+    margin-top: 3rem;
+  }
+  
+  .about-us h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .about-us p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .about-us-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .about-us-col {
+    flex-basis: 40%;
+    margin: 20px;
+  }
+  
+  .about-us-col h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .team {
+    padding: 50px 0;
+    background-color: #fff;
+  }
+  
+  .team h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .team-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .team-col {
+    flex-basis: 25%;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .team-col img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .team-col h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  
+ 
+/* About Us Page Styling */
+
+.about-us {
+  padding: 50px 0;
+  background-color: #f7f7f7;
+}
+
+.about-us h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-us p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-us-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-us-col {
+  flex-basis: 40%;
+  margin: 20px;
+}
+
+.about-us-col h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.team {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.team h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.team-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-col {
+  flex-basis: 25%;
+  margin: 20px;
+  text-align: center;
+}
+
+.team-col img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-col h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Media Queries for About Us Page */
+
+/* For smaller desktop screens and large tablets */
+@media only screen and (max-width: 1200px) {
+  .about-us-row {
+    flex-direction: column;
+  }
+  .about-us-col {
+    flex-basis: 100%;
+    margin: 20px 0;
+  }
+  .team-row {
+    flex-direction: column;
+  }
+  .team-col {
+    flex-basis: 100%;
+    margin: 20px 0;
+  }
+}
+
+/* For medium-sized tablets and large mobile phones */
+@media only screen and (max-width: 900px) {
+  .about-us h1 {
+    font-size: 30px;
+  }
+  .about-us p {
+    font-size: 16px;
+  }
+  .team h1 {
+    font-size: 30px;
+  }
+  .team-col img {
+    width: 80px;
+    height: 80px;
+  }
+  .input_card input[type="text"] {
+    width: 60%;
+  }
+  .input_card button {
+    width: 30%;
+  }
+}
+
+/* For small mobile phones */
+@media only screen and (max-width: 600px) {
+  .about-us h1 {
+    font-size: 24px;
+  }
+  .about-us p {
+    font-size: 14px;
+  }
+  .team h1 {
+    font-size: 24px;
+  }
+  .team-col img {
+    width: 60px;
+    height: 60px;
+  }
+}
