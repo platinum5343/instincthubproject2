@@ -57,7 +57,7 @@
     height: 40px;
     padding: 10px;
     font-size: 18px;
-    background-color: #4CAF50;
+    background-color: #00838f;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -86,7 +86,7 @@
   
   @media only screen and (max-width: 768px) {
     .contact-us form {
-      padding: 10px;
+      padding: 14px;
     }
     .contact-us form input[type="text"], .contact-us form input[type="email"] {
       height: 30px;
@@ -95,21 +95,22 @@
       height: 80px;
     }
     .contact-us form button[type="submit"] {
-      height: 30px;
+      height: 40px;
     }
   }
   
   @media only screen and (max-width: 480px) {
     .contact-us form {
-      padding: 5px;
+      padding: 10px;
     }
     .contact-us form input[type="text"], .contact-us form input[type="email"] {
-      height: 20px;
+      height: 25px;
     }
     .contact-us form textarea {
       height: 60px;
     }
     .contact-us form button[type="submit"] {
-      height: 20px;
+      height: 30px;
+      padding-bottom: 2rem;
     }
   }

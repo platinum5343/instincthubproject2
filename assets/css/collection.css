@@ -5,9 +5,9 @@
     margin: 40px auto;
     margin-top: 5rem !important;
     padding: 20px;
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9;
     border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   }
   
   .filter-options {
@@ -83,6 +83,11 @@
     }
     .product-gridcollection .product {
       width: 48%;
+    }
+    .collection-container{
+      border: none !important;
+      border-radius: 0 !important;
+    
     }
    
   }

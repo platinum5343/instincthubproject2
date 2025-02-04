@@ -14,7 +14,7 @@
 }
 
 header {
-  background: #ffffff;
+  nnerckground: #ffffff;
   position: fixed;
   top: 0;
   width: 100%;
@@ -87,12 +87,12 @@ article .tabset > label::after {
 }
 article .tabset > label:hover,
 article .tabset > input:focus + label {
-  color: #333333;
+  color: #00838f;
 }
 article .tabset > label:hover::after,
 article .tabset > input:focus + label::after,
 article .tabset > input:checked + label::after {
-  background: #333333;
+  background: #00838f;
 }
 article .tabset > input:checked + label {
   border-color: #ccc;
@@ -117,6 +117,18 @@ article .tab-panel {
   background: url(../images/banner.jpg);
   height: 450px;
   margin-top: 110px;
+  
+  animation: fadeIn 6s ease-in-out;
+  
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 }
 .banner .banner_txt h1 {
   font-family: "Merriweather", serif;
@@ -134,6 +146,10 @@ article .tab-panel {
  
   color: #ffffff;
 }
+.banner .banner_txt a:hover {
+  font-family: "Merriweather", serif;
+  color: #00838f;
+}
 .banner .banner_txt span {
   font-family: "Merriweather", serif;
   font-size: 40px;
@@ -150,6 +166,14 @@ article .tab-panel {
   border: 0;
   color: #ffffff;
   font-weight: 500;
+}
+.banner .banner_txt button:hover{
+  margin-top: 50px;
+  padding: 10px 25px;
+  background: #ffffff;
+  border-radius: 5px;
+  font-weight: 500;
+  border: 1px solid #00838f;
 }
 
 .card_row .percard {
@@ -461,4 +485,17 @@ a{
 }
 a:checked{
   color: #333333;
+}
+.center_link a{
+  color: #333333;
+}
+.center_link a:hover{
+  color: #00838f;
+}
+.center_link a:active{
+  color: #6e6e6e;
+  border: none;
+  background-color: #898787;
+  border-radius: 5px;
+  padding: 5px;
 }
